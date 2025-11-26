@@ -18,3 +18,14 @@ The backend API is built using Flask, and the trained ML model is stored in mode
 ✔️ Clean and simple frontend for user interaction
 ✔️ Supports CORS for smooth frontend-backend communication
 ✔️ Lightweight and easy to deploy
+
+🧪 How the ML Model Works
+The model uses regional + seasonal dataset and predicts water pump demand using supervised learning.
+Algorithms used (depending on your training):
+-Linear Regression
+-Random Forest Regression
+-Time-Series Regression Models
+-Excluded factors (as per your project scope):
+❌ Subsidy Impact Factor
+❌ Market Growth Rate (%)
+❌ Energy Efficiency Rating
